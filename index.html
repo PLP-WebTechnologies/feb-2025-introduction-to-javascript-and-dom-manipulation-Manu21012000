@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>JavaScript and DOM Manipulation</title>
+  <style>
+    .highlight {
+      color: white;
+      background-color: darkblue;
+      padding: 5px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="main-heading">Welcome to JavaScript DOM Practice</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Tutorial</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <p id="intro-text">Click the button to change this text and style!</p>
+      <button onclick="changeContent()">Change Text & Style</button>
+    </section>
+
+    <section>
+      <button onclick="toggleBox()">Add/Remove Box</button>
+      <div id="box-container"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Emmanuel Kipyegon </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
